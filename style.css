@@ -1,0 +1,42 @@
+#title{
+
+    margin-left: 32rem;
+    margin-bottom: 4rem;
+    color: yellow;
+
+}
+
+body{
+    background-image: url(./Assets/image.JPG); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#submit-button{
+
+    width: 5rem; 
+    height: 2rem;
+    background-color: yellow;
+    color: black;
+    margin-left: 35rem;
+    border-radius: 10px;
+    border: transparent;
+    font-weight: 600;
+
+}
+
+#logout{
+
+    width: 5rem; 
+    height: 2rem;
+    background-color: yellow;
+    color: black;
+    margin-left: 68rem;
+    border-radius: 10px;
+    border: transparent;
+    font-weight: 600;
+
+
+}

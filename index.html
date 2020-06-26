@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body style="background-image: url(./Assets/image2.jpg); background-repeat: no-repeat; background-size:cover;">
+
+    <div style="margin-left: 25rem; margin-top: 08rem;">
+
+    <h1 style="margin-left: 2rem;">Sign Up</h1>
+    
+
+
+    <input type="email"  required id="email" placeholder="User name or email" style="width: 25%; height: 20px; border-radius: 5px;" >
+    <p class="mailError" style="color: red; display: inline;"></p>
+
+    <br>
+    <input type="password" required id="pass" placeholder="Password" style="width: 25%; height: 20px; border-radius: 5px;"> 
+    <p id="passError" style="display: inline;"></p>
+
+    <br>
+    <input type="password" required id="confirmPass" placeholder="Confirm Password" style="width: 25%; height: 20px; border-radius: 5px;">
+    <p id="para" style="color: red; display: inline;"></p>
+    <br>
+    <input type="radio" value="Male" name="gender" id="genderName1">Male <br>
+    <input type="radio" value="Female" name="gender" id="genderName2">Female <br>
+
+    
+    <input type="button" value="Signup" onClick="signup()" style="width: 80px; height:30px; margin-left: 60px; border-radius: 5px;"> 
+
+
+ </div>
+    
+</body>
+
+<script src="index.js"></script>
+</html>
